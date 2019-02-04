@@ -1,0 +1,32 @@
+{
+    "rulesDirectory": [
+        "node_modules/tslint-microsoft-contrib"
+    ],
+    "rules": {
+        "comment-format": {
+            "options": [
+                "check-space"
+            ],
+            "severity": "error"
+        },
+        "no-console": {
+            "options": [
+                "log"
+            ],
+            "severity": "warning"
+        },
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "semicolon": [
+            true,
+            "never"
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords"
+        ],
+        "no-debugger": true
+    }
+}

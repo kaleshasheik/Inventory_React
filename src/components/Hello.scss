@@ -1,0 +1,106 @@
+h1 {
+    color: red;
+    margin-top: 10%
+}
+
+.app-bar{
+    position: absolute;
+    background-color: #23333D;
+     right: 0;
+     top: 0;
+     left: 0;
+     padding: 0px 0px 0px 20px;
+     height: 50;
+    }
+
+    .requestform{
+
+         padding-top: 100px;
+
+    }
+
+    .request-card{
+
+        margin-top: 100px;
+        width: 50%;
+        margin-left: 20%;
+
+    }
+
+    .Textstyle  {
+       
+    
+        left: 550;
+        top: 120;
+       
+        underlineStyle: {
+            borderColor: '#23333D';
+            width: 300;
+          }
+          floatingLabelStyle: {
+            color: '#23333D';
+          };
+          floatingLabelFocusStyle: {
+            color: '#23333D';
+          }
+        
+       }
+
+       .card-counter{
+        box-shadow: 2px 2px 10px #DADADA;
+        margin: 5px;
+        padding: 20px 10px;
+        background-color: #fff;
+        height: 100px;
+        border-radius: 5px;
+        transition: .3s linear all;
+      }
+    
+      .card-counter:hover{
+        box-shadow: 4px 4px 20px #DADADA;
+        transition: .3s linear all;
+      }
+    
+      .card-counter.primary{
+        background-color: #007bff;
+        color: #FFF;
+      }
+    
+      .card-counter.danger{
+        background-color: #ef5350;
+        color: #FFF;
+      }  
+    
+      .card-counter.success{
+        background-color: #66bb6a;
+        color: #FFF;
+      }  
+    
+      .card-counter.info{
+        background-color: #ffae19;
+        color: #FFF;
+      }  
+    
+      .card-counter i{
+        font-size: 5em;
+        opacity: 0.2;
+      }
+    
+      .card-counter .count-numbers{
+        position: absolute;
+        right: 35px;
+        top: 20px;
+        font-size: 32px;
+        display: block;
+      }
+    
+      .card-counter .count-name{
+        position: absolute;
+        right: 35px;
+        top: 65px;
+        font-style: italic;
+        text-transform: capitalize;
+        opacity: 0.5;
+        display: block;
+        font-size: 18px;
+      }
